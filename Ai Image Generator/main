@@ -43,7 +43,7 @@ def generate_images_from_json(json_url, folder_name):
                 name = item.get("name")
                 if name:
                     plate_color = "black" if any(light_item.lower() in name.lower() for light_item in light_colored_items) else "white"
-                    prompt = f"raw uncut {name} on a {plate_color} plate"0
+                    prompt = f"raw uncut {name} on a {plate_color} plate"
                     download_image(prompt, folder_path)
 
 json_url = "https://staticapis.pragament.com/products/vegetables_fruits.json"
