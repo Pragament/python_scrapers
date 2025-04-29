@@ -120,5 +120,4 @@ print(f"Total number of vegetables: {total_vegetables}")
 print(f"Total number of fruits: {total_fruits}")
 print(f"Total number of items: {total_items}")
 
-
 driver.quit()
