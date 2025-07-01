@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import time
 
+
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')  
 options.add_argument('--disable-gpu') 
@@ -118,6 +119,5 @@ total_items = total_vegetables + total_fruits
 print(f"Total number of vegetables: {total_vegetables}")
 print(f"Total number of fruits: {total_fruits}")
 print(f"Total number of items: {total_items}")
-
 
 driver.quit()
