@@ -1,0 +1,6 @@
+pymupdf
+pillow
+opencv-python
+fitz
+frontend
+
